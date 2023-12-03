@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "luck-truck-python-headless-client"
+version = "0.1.0"
+description = ""
+authors = ["Rezwanul Islam <rezwanul7@gmail.com>"]
+readme = "README.md"
+packages = [{include = "luck_truck_python_headless_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
